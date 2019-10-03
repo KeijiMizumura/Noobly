@@ -1,0 +1,66 @@
+#login-form .form-title{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#login-form{
+    width: 500px;
+    margin: 45px auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px #aaa;
+    background-color: #f1f1f1;
+}
+
+#login-form .form-row{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#login-form .form-row .form-col{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* TextFields */
+
+.noob-textfield{
+    padding: 10px 5px;
+    margin-top: 3px;
+    border-radius: 3px;
+    border: 1px solid #999;
+}
+
+#login-form label{
+    font-size: .8em;
+}
+
+/* Expenses */
+
+#expenses-form .form-title{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#expenses-form{
+    width: 500px;
+    margin: 15px auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px #aaa;
+    background-color: #f1f1f1;
+}
+
+#expenses-form .form-row{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#expenses-form .form-row .form-col{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
